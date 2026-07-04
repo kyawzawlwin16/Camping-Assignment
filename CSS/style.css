@@ -42,7 +42,8 @@ header {
     width: 100%;
     z-index: 10;
 }
-.header_camp{
+
+.header_camp {
     margin-top: -60px;
 }
 
@@ -58,7 +59,7 @@ nav a {
     text-decoration: none;
     margin-left: 35px;
     font-weight: 1000;
-font-size: 20px;
+    font-size: 20px;
     transition: color 0.3s ease;
 
 }
@@ -368,10 +369,11 @@ nav a.active {
 
 
 /* Campgrounds Section */
-.container {
+.container_camp {
     max-width: 1200px;
     margin: 60px auto;
     padding: 0 20px;
+
 }
 
 .page-title {
@@ -409,7 +411,7 @@ nav a.active {
     width: 100%;
     height: 240px;
     object-fit: cover;
-    
+
 }
 
 .camp-info {
@@ -583,3 +585,109 @@ footer {
         gap: 40px;
     }
 }
+
+
+/* Contact Page starts here */
+.container {
+    max-width: 1000px;
+    /* margin: 60px auto; */
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+    margin-left: 150px;
+}
+
+.header_contact {
+    margin-top: -10px;
+}
+
+.header_header {
+    margin-top: -60px;
+}
+
+.contact-info h1 {
+    font-size: 36px;
+    color: var(--dark-navy);
+    margin-bottom: 20px;
+}
+
+.contact-info h1 span {
+    color: var(--primary-red);
+}
+
+.contact-info p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.info-block {
+    margin-bottom: 25px;
+}
+
+.info-block h4 {
+    color: var(--dark-navy);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.info-block p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.contact-form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--dark-navy);
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #f8fafc;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+.btn-submit {
+    background: var(--primary-red);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background: #c92a37;
+}
+
+
+
+
